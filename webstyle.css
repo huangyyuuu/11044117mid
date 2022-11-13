@@ -1,0 +1,332 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: #D5BDAF;
+    margin: 0px;
+    padding: 20px;
+    text-align: center;
+    font-size:35px;
+    border-bottom: #7d6f66 double 8px;
+}
+nav{
+    background-color: #D6CCC2;
+    text-align: center;
+}
+nav a{
+    padding: 15px 15px;
+    display: inline-block;
+    color:#B09B8F;
+    font-size: larger;
+}
+nav a:hover{
+    background-color: #D5BDAF;
+    color: #EDEDE9;
+}
+main{
+    padding: 30px;
+}
+body{
+    background-color:#E3D5CA;
+    margin: 0px;
+    font-family: Cooper,華康正顏楷體W7;
+}
+.square1{
+    background-color:#F5EBE0 ;
+    padding: 30px;
+    margin: 30px 20px;
+    border-radius: 0% 20% 0% 20%;
+}
+.square2{
+    background-color:#D6CCC2 ;
+    padding:30px;
+    margin: 30px 20px ;
+    border: #7d6f66 double 5px;
+    border-radius: 20% 0% 20% 0%;
+}
+.square3{
+    background-color:#F5EBE0 ;
+    padding: 50px;
+    margin: 30px 20px;
+    border-radius: 0% 20% 0% 20%;
+}
+.square4{
+    background-color:#D6CCC2 ;
+    padding: 30px;
+    margin: 30px 20px;
+    border: #7d6f66 double 5px;
+    border-radius: 20% 0% 20% 0%;
+}
+#title01{
+    border: #7d6f66 dotted 5px;
+    background-color:#E3D5CA;
+    font-size: 50px;
+    font-family:Cooper;
+    width: 9cm;
+    text-align:center;
+    display: block;
+}
+#photo01{
+    width: 8cm;
+    height:9cm;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+#photo01:hover{
+    transition: transform 1.5s ease;
+    transform: scale(1.15);
+}
+.me{
+    font-size: 25px;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: -460px;
+}
+.sentence{
+    color:#7d6f66; 
+}
+.contact{
+    width: 70px;
+    height: 70px;
+    margin: 25px;
+}
+.contact:hover{
+    background-color:#D6CCC2;
+    border-radius: 10%;
+}
+.context{
+    font-size:30px;
+    text-align: center;
+}
+#title02{
+    background-color:#E3D5CA;
+    font-size: 50px;
+    font-family:Cooper;
+    width: 5cm;
+    text-align: center;
+    display: block;
+    margin-left: 80%;
+}
+.skills{
+    display: flex;
+}
+.skill1{
+    width: 40%;
+    margin: 10px;
+}
+.skill2{
+    width: 30%;
+    margin: 10px;
+}
+.skill3{
+    width: 30%;
+    margin: 10px;
+}
+
+#skill02{
+    background-color: #D5BDAF;
+    color: #7d6f66;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin:0 auto 20px;
+    break-inside: avoid;
+}
+#skill03{
+    background-color: #D5BDAF;
+    color: #7d6f66;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin:0 auto 20px;
+    break-inside: avoid;
+}
+#phcpr{
+    width:7cm;
+    height: 4cm;
+}
+#phswim{
+    width: 7cm;
+    height:11cm;
+}
+
+.stitle{
+    font-size: 30px;
+}
+
+.box{
+    border: #7d6f66 dashed 3px;
+    background-color:#EDEDE9;
+    width:100% ;
+}
+
+#title03{
+    border: #7d6f66 dotted 5px;
+    background-color:#E3D5CA;
+    font-size: 50px;
+    font-family:Cooper;
+    width: 11cm;
+    text-align:center;
+    display: block;
+}
+@keyframes bar1{
+    0%{width: 0%;}
+    100%{width: 80%;}
+}
+.html{
+    font-size: larger;
+    text-align: right;
+    color: #7d6f66;
+    background-color: #D5BDAF;
+    padding: 10px;
+    width:80%;
+    animation-name: bar1;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-play-state: running;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+@keyframes bar2{
+    0%{width: 0%;}
+    100%{width: 65%;}
+}
+.css{
+    font-size: larger;
+    text-align: right;
+    color: #7d6f66;
+    background-color: #D5BDAF;
+    padding: 10px;
+    width:65%;
+    animation-name: bar2;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-play-state: running;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+@keyframes bar3{
+    0%{width: 0%;}
+    100%{width: 60%;}
+}
+.java{
+    font-size: larger;
+    text-align: right;
+    color: #7d6f66;
+    background-color: #D5BDAF;
+    padding: 10px;
+    width:60%;
+    animation-name: bar3;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-play-state: running;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+.python{
+    font-size: larger;
+    text-align: right;
+    color: #7d6f66;
+    background-color: #D5BDAF;
+    padding: 10px;
+    width:60%;
+    animation-name: bar3;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease;
+    animation-play-state: running;
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+}
+.waterfall{
+    width: 100%;
+    column-count:5;
+    column-gap: 20px;
+}
+.pic{
+    background-color: #D5BDAF;
+    color: #7d6f66;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    margin:0 auto 20px;
+    break-inside: avoid;
+}
+.pic:hover{
+    transition: transform 0.8s ease;
+    transform: scale(1.15);
+}
+.activity{
+    width: 100%;
+    object-fit: contain;
+    object-position: 50% 50%;
+}
+.ap{
+    padding: 10px;
+    background-color:#E3D5CA;
+    font-size: 12px;
+    text-align: center;
+    border-radius: 90%;
+    border: #B09B8F dashed;
+    margin: 30px;
+}
+.ap:hover{
+    background-color:#F5EBE0;
+}
+
+#title04{
+    background-color:#E3D5CA;
+    font-size: 50px;
+    font-family:Cooper;
+    width: 10cm;
+    text-align: center;
+    display: block;
+    margin-left: 65%;
+}
+.school{
+    font-size: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 60px;
+} 
+.school p{
+    background-color:#F5EBE0;
+    color: #D5BDAF;
+    border: #B09B8F dashed 3px;
+    border-radius: 10%;
+    padding: 10px;
+}
+#s1{
+    width: 4cm;
+    height:6cm;
+    border-radius:10% 10% 100% 100%;
+    margin: 37px;
+}
+
+#s2{
+    width: 5cm;
+    height:5cm;
+    margin: 37px;
+}
+#s3{
+    width: 5cm;
+    height:5cm;
+    border-radius:50%;
+    margin: 37px;
+}
+footer{
+    background-color:#EDEDE9 ;
+    font-size: 25px;
+    text-align: center;
+    color:#B09B8F;
+    padding: 10px;
+}
